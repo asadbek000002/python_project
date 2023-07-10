@@ -8,8 +8,8 @@ class Book:
     def add_book(self, book):
 
 
-    def __str__(self):
-         return f"{self.name}"
+        def __str__(self):
+             return f"{self.name}"
 
 book = Book( name=" O'tkan kunlar")
 book1 = Book(name='atom odatlar')
